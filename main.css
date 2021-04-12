@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(
+    160deg
+    , #84600a, transparent);
+    margin: 0;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    display: grid; 
+}
+
+header {
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 0px;
+    align-items: flex-end;
+}
+
+header h1 {
+  margin-left: 40px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding: 8px;
+    margin: 0px;   
+}
+
+nav a {
+  padding: 10px;
+}
+
+.fa {
+  padding: 19px;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+  height: 17px;
+  border-radius: 50%;
+  box-shadow: inset -6px 2px 20px 4px darkblue;
+  
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* section contact */
+
+.contact {
+  background-color: khaki;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 39vh;
+  width: 30vw;
+  padding: 15px;
+  margin: 75px;
+  border-left: 4px groove maroon;
+  border-right: 4px ridge maroon;
+  border-radius: 20%;
+}
+
+/* social-links */
+
+.social-links {
+    float: right;
+    display: flex;
+    padding: 90px;
+    margin: 95px;
+    position: relative;
+}  
+
+/* objective */
+
+.obj-wrk {
+  background-color: khaki;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    padding: 15px;
+}
+
+.objective {
+  text-align: center;
+  padding: 15px;
+}
+
+.education {
+  padding: 15px;
+}
+
+.work-experiance{
+  padding: 15px;
+}
+
